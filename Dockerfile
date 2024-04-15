@@ -1,5 +1,5 @@
 FROM nginx:1.21.1
-LABEL version="1.0" mainteneur= "NGUEYEP MODESTE DOLUMIN"
+LABEL version="1.0" maintainer="NGUEYEP_MODESTE_DOLUMIN"
 RUN apt-get update -y && \
     apt-get upgrade -y && \
     apt-get install -y git curl && \
